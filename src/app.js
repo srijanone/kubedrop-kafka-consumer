@@ -4,7 +4,7 @@
 const express = require('express');
 const logger = require('pino')();
 
-const { emailRouter, healthCheckRouter } = require('./controllers');
+const { healthCheckRouter } = require('./controllers');
 const { KafkaService } = require('./services');
 const config = require('./config');
 

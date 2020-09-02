@@ -14,7 +14,7 @@ NODE_ENV="development"
 
 # Kafka Related Config
 KAFKA_CLIENT_ID="unique-client-id"
-KAFKA_GROUP_ID="email-service"
+KAFKA_GROUP_ID="kafka-consumer"
 KAFKA_BROKERS="localhost:9092"
 KAFKA_USERNAME=""
 KAFKA_PASSWORD=""
